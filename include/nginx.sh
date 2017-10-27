@@ -1,7 +1,7 @@
 #!/bin/bash
 
 InstallNginx(){
-	
+	cd ${path};
 	tar -zvxf nginx-1.13.5.tar.gz;
 	cd nginx-1.13.5;
 
